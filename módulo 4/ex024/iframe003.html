@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, quaerat. Non dignissimos, voluptatem beatae eligendi sit ipsam molestias tempore impedit aliquam totam ab, nobis modi, aspernatur sint ipsa error fugiat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui commodi laudantium tempora cumque quasi nam odio modi voluptas quis vero quas nesciunt deserunt quaerat doloribus sapiente, harum quia dolore? Dicta.</p>
+    <ul>
+        <li><a href="paginas/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In porro, consequatur dolores expedita ex totam culpa beatae fugiat molestias saepe neque minus tempora hic quibusdam illum sequi voluptas, dignissimos libero! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum blanditiis eaque tempore magnam neque cumque voluptatibus assumenda corporis sunt expedita enim itaque mollitia laboriosam, voluptatem odit iste adipisci. Repellat, aperiam!</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sit deserunt, ipsa corporis quasi voluptatum reiciendis veritatis minus, mollitia possimus, consectetur laudantium alias. Vitae, eaque est autem ratione non illo?</p> <img src='paginas/background001.jpg' > ">
+
+        <p>O navegador não é compatível</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quia aspernatur! Debitis, provident. Eos ducimus quibusdam, dicta eius aspernatur neque, fugit ab natus vero mollitia ipsa veniam similique perspiciatis officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corporis dolore iusto unde, minus blanditiis eius explicabo! Reiciendis qui est omnis sunt, labore a maiores recusandae nostrum nesciunt placeat perspiciatis.</p>
+</body>
+</html>
